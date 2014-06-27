@@ -1,2 +1,0 @@
-{"ts":1403883993506,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"congregate\n==========\n\nNode.js cluster on top of Flatiron CLI &amp; Native cluster. Built with love!\n"]],"start1":0,"start2":0,"length1":0,"length2":101}]],"length":101}
-{"contributors":[],"silentsave":false,"ts":1403884040767,"patch":[[{"diffs":[[0,"h love!\n"],[1,"\n## Author\nThis module has been written by [Hamza Waqas](http://github.com) while supporting [Witness.io](http://witness.io)\n"]],"start1":93,"start2":93,"length1":8,"length2":133}]],"length":226,"saved":false}
