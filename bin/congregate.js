@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * Dependencies.
- */
 
 var argv = require('argvee')();
 var path = require('path');
