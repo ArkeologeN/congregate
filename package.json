@@ -1,0 +1,32 @@
+{
+  "name": "congregate",
+  "description": "Node.js cluster on top of Flatiron CLI & Native cluster. Built with love!",
+  "version": "0.1.0",
+  "dependencies": {
+    "flatiron": "0.3.11",
+    "async": "~0.9.0",
+    "argvee": "~0.1.1"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "bin": {
+    "congregate": "bin/congregate.js"
+  },
+  "keywords": [
+    "congregate",
+    "node",
+    "zdd",
+    "downtime",
+    "deployment",
+    "cluster"
+  ],
+  "main": "app.js",
+  "author": "Hamza Waqas <hamzawaqas.programmer@gmail.com>",
+  "homepage": "https://github.com/ArkeologeN/congregate"
+}
