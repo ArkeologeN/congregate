@@ -36,5 +36,14 @@ CONG_APP_PATH=/var/www/myapp.js congregate spin --shards 8
 --app    = You need to pass absolute url to your application. Else, set your environment variable of CONG_APP_PATH
 ```
 
+## TODO
+Tons of more useful commands including:
+
+- congregate stop
+- congregate restart
+- congregate increase shards
+- congregate shutdown
+- congregate list
+
 ## Author
 Congregate has been initialized by [Hamza Waqas](http://twitter.com/HamzaWaqas) inspired from `Jonathan Warner`'s trick!
