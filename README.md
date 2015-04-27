@@ -45,5 +45,30 @@ Tons of more useful commands including:
 - congregate shutdown
 - congregate list
 
+## List
+
+The list command helps you figure out how many relevant shard processes are running over the desired instance. There are 2 ways to find them.
+
+```
+1 - Find By Title.
+2 - Find By Port
+```
+
+If you know the desired port, all you have to do is to refer your `port` to congregate.
+
+```
+$ congregate list --port <port>
+```
+
+where `<port>` would be replaced with the port serving the application i.e `80`.
+
+However, if you want to find by `process title`, you have to be aware that `congregate` spins with `congregate-*` where `*` is the PID.
+
+```
+$ congregate list --name congregate-
+```
+
+This will retrieve all processes which are running under the title of `congregate`.
+
 ## Author
 Congregate has been initialized by [Hamza Waqas](http://twitter.com/HamzaWaqas) inspired from `Jonathan Warner`'s trick!
