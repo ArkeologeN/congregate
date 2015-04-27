@@ -1,7 +1,7 @@
 {
   "name": "congregate",
   "description": "Node.js cluster on top of Flatiron CLI & Native cluster. Built with love!",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "dependencies": {
     "argvee": "~0.1.1",
     "async": "~0.9.0",
