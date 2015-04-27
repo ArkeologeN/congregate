@@ -8,7 +8,7 @@ app.use(flatiron.plugins.cli, {
     version: true,
     source: path.join(__dirname, 'lib', 'commands'),
     usage: [
-        "Congregate Shards for Clustering your Application!",
+        "Application clustering of your node.js as shards!",
         '',
         'Usage: congregate <command>'
     ]

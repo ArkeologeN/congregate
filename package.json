@@ -3,9 +3,12 @@
   "description": "Node.js cluster on top of Flatiron CLI & Native cluster. Built with love!",
   "version": "0.2.0",
   "dependencies": {
-    "flatiron": "0.3.11",
+    "argvee": "~0.1.1",
     "async": "~0.9.0",
-    "argvee": "~0.1.1"
+    "cli-table": "^0.3.1",
+    "colors": "^1.0.3",
+    "flatiron": "0.3.11",
+    "ps-node": "0.0.4"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
