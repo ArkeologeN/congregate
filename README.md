@@ -39,11 +39,9 @@ CONG_APP_PATH=/var/www/myapp.js congregate spin --shards 8
 ## TODO
 Tons of more useful commands including:
 
-- congregate stop
 - congregate restart
-- congregate increase shards
+- congregate shards
 - congregate shutdown
-- congregate list
 
 ## List
 
@@ -69,6 +67,16 @@ $ congregate list --name congregate-
 ```
 
 This will retrieve all processes which are running under the title of `congregate`.
+
+## Shutdown
+
+To shutdown your `congregate` shards running over a particular `port`, invoke the `shutdown` command with `--port` of parameter as argument.
+
+```
+$ congregate shutdown --port <port>
+```
+
+Here, `<port>` would be the port where your application is already running and you're willing to terminate.
 
 ## Author
 Congregate has been initialized by [Hamza Waqas](http://twitter.com/HamzaWaqas) inspired from `Jonathan Warner`'s trick!
